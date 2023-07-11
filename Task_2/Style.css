@@ -1,0 +1,55 @@
+.progressbar{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+
+.progressPercent{
+    font-weight: 600;
+    font-family: 'franklin Gothic Medium';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: darkorange;
+    text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
+}
+
+btn{
+    display: block;
+    margin: 5rem auto;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    background-color: #937DC2;
+    transition: box-shadow 0.5s;
+    font-size: 16px;
+    font-family: arial;
+    color: black;
+    cursor: pointer;
+}
+
+.btn:hover{
+    -webkit-box-shadow: inset 100px 0 0 0 #7c54d1;
+    box-shadow: inset 100px 0 0 0 #7c54d1;
+}
+
+.progressbar_popup {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+}
+.progressbar_wrapper {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
